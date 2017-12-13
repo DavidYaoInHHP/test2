@@ -1,0 +1,14 @@
+when you create a new branch, e.g. "David", at this point, all files in the default branch (which is "master" branch) will clone to the David branch and any changes after that, will only inside the David branch.
+i.e.
+	create David branch by using github desktop
+	when you go to file storage location, seems nothing changed, but indeed, all file in your computer now is "belongs" to David branch
+
+e.g.
+	go to David branch, creat a file called "only in David branch"
+	go to master branch, creat a file called"only in master branch"
+	On local computer:
+		if you select David branch, see:  "only in David branch" file
+					    cant see: "only in master branch" file
+		if you select master branch, see:  "only in master branch" file
+					    cant see: "only in David branch" file
+	conclusion: local file will change base on your branch choose!
