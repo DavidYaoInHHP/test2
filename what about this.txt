@@ -1,1 +1,4 @@
 what about i change local and github file at same time?
+
+Result:
+git_desktop will ask you to "pull" changes from github to local (update your local file first) then you can "push" your works from local to github!
