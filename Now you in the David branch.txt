@@ -1,0 +1,7 @@
+when you create a new branch, e.g. "David", at this point, all files in the default branch (which is "master" branch) will clone to the David branch 
+and any changes after that, will only inside the David branch.
+e.g
+	create David branch by using github desktop
+	when you go to file storage location, seems nothing changed, but indeed, all file in your computer now is "belongs" to David branch
+	addd a file 
+	
